@@ -1,6 +1,6 @@
 import itertools
 from graphtools import *
-
+import pandas as pd
 
 def internal_interconnectivity(graph, cluster):
     return np.sum(bisection_weights(graph, cluster))
